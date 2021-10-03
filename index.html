@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Go - Online Timer</title>
+    <!--styles-->
+    <link rel="stylesheet" href="assets/css/styles.css"/>
+    <!--icons-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!--google webfont loader-->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+          families: ['Poppins']
+        }
+      });
+    </script>      
+   </head>
+<body>
+    <header>
+        <div id="reset-box">
+            <i class="uil uil-redo"></i>
+            <h3 class="btn" id="reset-btn">RESET</h3>
+        </div>    
+    </header>
+    <div class="time-container">
+        <div class="time-box">
+            <i class="uil uil-plus" id="min-up"></i>
+            <h2 class="timer-label mid-box" id="min">00</h2>
+            <i class="uil uil-minus" id="min-down"></i>
+        </div>
+        <div class="time-box">
+            <i class="uil uil-plus" id="sec-up"></i>
+            <h2 class="timer-label" id="sec">00</h2>
+            <i class="uil uil-minus" id="sec-down"></i>
+        </div>
+    </div>
+    <div id="start-box">
+        <i class="uil uil-play-circle"></i>
+        <h3 class="btn">START</h3>
+    </div>
+    <!--javascript-->
+    <script src="assets/js/app.js"></script>   
+</body>
+</html>
